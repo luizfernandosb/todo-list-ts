@@ -22,6 +22,7 @@ export default function TodoInput({ onAddTodo }: TodoInputProps) {
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Add new task"
+        maxLength={20}
       />
       <button type="submit"
       className="px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-950 focus:outline-none">Add</button>
