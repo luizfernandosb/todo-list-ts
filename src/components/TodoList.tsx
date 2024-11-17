@@ -12,9 +12,18 @@ export default function TodoList({
   onToggleComplete,
   onDelete,
 }: TodoListProps) {
+
+
+
   if (!todos || todos.length === 0) {
-    return <p className="text-gray-950 mt-5 text-center font-bold">Empty task list.</p>;
+    return (
+      <p className="text-gray-950 mt-5 text-center font-bold">
+        Empty task list.
+      </p>
+    );
   }
+
+  
 
   return (
     <div className="space-y-2 mt-4">
