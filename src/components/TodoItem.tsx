@@ -25,7 +25,7 @@ export default function TodoItem({
         </span>
       </div>
       <button onClick={() => onDelete(todo.id)}
-        className="text-red-500 hover:text-red-800 focus:outline-none">Delete</button>
+        className="text-red-700 font-bold  hover:text-red-500 focus:outline-none">Delete</button>
     </div>
   );
 }

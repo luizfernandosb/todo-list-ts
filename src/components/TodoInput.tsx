@@ -24,7 +24,7 @@ export default function TodoInput({ onAddTodo }: TodoInputProps) {
         placeholder="Add new task"
       />
       <button type="submit"
-      className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-400 focus:outline-none">Add</button>
+      className="px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-950 focus:outline-none">Add</button>
     </form>
   );
 }

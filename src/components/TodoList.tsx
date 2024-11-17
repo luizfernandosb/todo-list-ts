@@ -13,7 +13,7 @@ export default function TodoList({
   onDelete,
 }: TodoListProps) {
   if (!todos || todos.length === 0) {
-    return <p className="text-gray-500 text-center">Lista de tarefa vazia.</p>;
+    return <p className="text-gray-950 mt-5 text-center font-bold">Empty task list.</p>;
   }
 
   return (
